@@ -6,6 +6,7 @@ input_file="vscode-extensions.txt"
 declare -a extensions=(
     "eamodio.gitlens"
     "amazonwebservices.amazon-q-vscode"
+    "GitHub.vscode-github-actions"
 )
 
 for extension in "${extensions[@]}"; do
